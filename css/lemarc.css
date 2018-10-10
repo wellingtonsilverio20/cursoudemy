@@ -1,0 +1,395 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+	font-family: "Albertus";
+	src: url("albr.ttf");
+}
+
+@font-face {
+	font-family: "Calibri";
+	src: url("calibrib.ttf");
+}
+
+body{
+	margin:0;
+	padding:0;
+	background:#F5F5F5;
+}
+
+#div_topo{
+	width:100%;
+	height:65px;
+	background:#E7E7E7;
+}
+
+#conteudo_topo{
+	width:1000px;
+	margin:0 auto;
+}
+
+#conteudo_topo ul{
+	padding:5px;
+	margin:0;
+}
+
+#conteudo_topo ul li{
+	list-style:none;
+	float:left;
+}
+
+#conteudo_topo ul li a{
+	font:14px "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color:#848181;
+	display:block;
+	text-decoration:none;
+	padding:18px 15px;
+}
+
+#conteudo_topo ul li a:hover{
+	color:#7F939F;
+	background:#f5f5f5;
+}
+
+#box_orcamento{
+	width:190px;
+	padding:7px 10px;
+	float:right;
+	text-align:center;
+	margin-top:-8px;
+	border:1px solid #DDDDDB;
+	background:#F5F4F2;
+	font:15px "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color:#333;
+}
+
+#box_login{
+	width:300px;
+	padding:15px 10px;
+	margin-top:10px;
+	float:right;
+	text-align:right;
+}
+
+#box_login a img{
+	padding-left:10px;
+	margin-top:-3px;
+	float:right;
+}
+
+#home{
+	width:100%;
+	background-image:url(../img/bg_site.png);
+	background-position:top;
+	background-repeat:no-repeat;
+}
+
+#div_produtos_home{
+	width:1000px;
+	margin:20px auto;
+	padding-top:50px;
+}
+
+.box_produtos_home{
+	width:185px;
+	float:left;
+	margin:10px 25px;
+	text-align:center;
+}
+
+.box_produtos_home h1{
+	display:block;
+	font:15px "Albertus";
+	color:#666;
+}
+
+.box_produtos_home img{
+	border:1px solid #CCC;
+	background:#FFF;
+	margin:3px auto;
+}
+
+.botao_home{
+	display:block;
+	width:160px;
+	padding:10px 10px;
+	background:url(../img/bg_botao.jpg) repeat-x;
+	border:1px solid #CCC;
+	margin:5px auto;
+	color:#999;
+	font-weight:bold;
+	font:15px "Calibri";
+}
+
+.botao_home:hover{
+	background:#E4EDF6;
+	cursor:pointer;
+}
+
+#div_ultimos_trabalhos{
+	width:1000px;
+	margin:0px auto;
+}
+
+.box_ultimos_trabalhos{
+	width:480px;
+	height:180px;
+	float:left;
+	margin:10px 10px;
+}
+
+.box_ultimos_trabalhos img{
+	margin-left:5px;
+	margin-top:5px;
+	float:left;
+}
+
+.box_ultimos_trabalhos span{
+	display:block;
+	width:300px;
+	float:left;
+	margin-top:5px;
+	margin-left:5px;
+}
+
+.saiba_mais{
+	display:block;
+	background:url(../img/bg_trabalhos.jpg) repeat-x;
+	border:1px solid #CCC;
+	float:right;
+	color:#999;
+	text-decoration:none;
+	padding:5px 5px;
+	font-weight:bold;
+	font:15px "Calibri";
+	border-radius:5px 5px 5px 5px;
+}
+
+.saiba_mais:hover{
+	background:#E4EDF6;
+}
+
+.box_conteudo{
+	width:980px;
+	border:0;
+	margin:10px auto;
+	padding:0 10px;
+	background:#FFF;
+	font:15px "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color:#9DB2A6;
+	border-radius:0px 0px 5px 5px;
+	box-shadow:0px 5px 15px #333;
+}
+
+.box_titulo{
+	background:url(../img/bg_titulo.jpg) no-repeat;
+	padding:10px 10px;
+	font:18px "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color:#FFF;
+	margin-left:-10px;
+}
+
+#div_busca{
+	float:right;
+	margin-top:5px;
+	width:700px;
+}
+
+#busca{
+	height:29px;
+	padding-left:10px;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+#buscar{
+	height:33px;
+	width:90px;
+	border:1px solid #333;
+	background:#EDEDED;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+
+}
+
+#produto{
+	width:750px;
+	margin:0 auto;
+}
+
+#produto h1{
+	font:18px "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color:#666;
+	font-weight:normal;
+	display:block;
+	width:700px;
+}
+
+#produto{
+	width:730px;
+	float:left;
+	padding:5px;
+	border:1px thick #CCC;
+}
+
+#imagens{
+	width:450px;
+	float:left;
+	padding:5px;
+	border:1px thick #CCC;	
+}
+
+.miniaturas{
+	margin:6px 4px;
+}
+
+.atributos{
+	width:260px;
+	float:right;
+	border:1px solid #EDEDED;
+}
+
+.atributos label{
+	display:block;
+	width:260px;
+	background:#EDEDED;
+	margin:0px;
+	padding:5px 0px;
+	border-bottom:1px solid #CCC;
+}
+
+.atributos label input[type="text"]{
+	height:30px;
+	text-align:center;
+	font:18px "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+.descricao{
+	width:730px;
+	margin:3px auto;
+}
+
+#menu_rodape{
+	width:100%;
+	height:45px;
+	text-align:center;
+	background:#8C9EA5;
+}
+
+#menu_rodape ul{
+	margin:0;
+	padding:0;
+}
+#menu_rodape ul li{
+	float:left;
+	list-style:none;
+}
+#menu_rodape ul li a{
+	font:15px "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color:#FFF;
+	display:block;
+	text-decoration:none;
+	padding:11px 50px;
+}
+#rodape{
+	width:100%;
+	background:url(../img/bg_rodape.jpg) repeat;
+	text-align:center;
+	padding:30px 0;
+}
+
+#frm_contato{
+	width:990px;
+	margin:0 auto;
+}
+
+.label_contato{
+	display:block;
+	float:left;
+	margin:5px 3px;
+}
+
+.input_contato{
+	height:30px;
+	border:1px #CCC solid;
+	background:#EDEDED;
+	font:19px "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+.select_contato{
+	height:32px;
+	border:1px #CCC solid;
+	background:#EDEDED;
+	font:19px "Trebuchet MS", Arial, Helvetica, sans-serif;
+	margin-top:-3px;
+	color:#999;
+}
+
+.textarea_contato{
+	border:1px #CCC solid;
+	background:#EDEDED;
+	font:19px "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+.button_contato{
+	border:1px #999 solid;
+	height:36px;
+	background:#C3C3C3;
+	color:#fff;
+	padding:3px 25px;
+	font:19px "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+.clear{
+	clear:both;
+	height:0px;
+	width:0px;
+}
+
+/* Fonte */
+
+.trebuchet15cinza{
+	font:15px "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color:#9B9898;
+	text-decoration:none;
+}
+
+.trebuchet15azul{
+	color:#9DB2A6;
+	font:15px "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+.trebuchet15cinzaescuro{
+	color:#333;
+	font:15px "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+.trebuchet18cinzaescuro{
+	color:#333;
+	font:18px "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+.trebuchet18marrom{
+	color:#734746;
+	font:18px "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+.trebuchet15branco{
+	font:15px "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color:#FFF;
+	text-decoration:none;
+}
+
+.albertus39cinza{
+	font:39px "Albertus";
+	color:#333;
+	text-decoration:none;
+}
+
+.calibri15cinza{
+	font:15px "Calibri";
+	color:#999;
+}
+
+.calibri20cinza{
+	font:20px "Calibri";
+	color:#333;
+}
