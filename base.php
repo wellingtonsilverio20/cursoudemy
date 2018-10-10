@@ -1,1 +1,0 @@
-<BASE HREF="http://www.acrilicoslemarc.com.br/">
